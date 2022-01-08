@@ -52,12 +52,12 @@ html {
   height: 22px;
 }
 #header .mobile-menu {
-    float: right;
-    padding: 13.8px 24px;
-    top: 0;
-    right: 0;
-    position: absolute;
-    display: none;
+  float: right;
+  padding: 13.8px 24px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  display: none;
 }
 
 #header .search:hover {
@@ -115,11 +115,17 @@ html {
   background-color: #ccc;
   width: 100%;
 }
+
 #sider {
   position: relative;
-  margin-top: 46px;
-  padding-top: 50%;
-  background: url("./assets/img/la.PNG") top center / cover no-repeat;
+  /* margin-top: 46px;
+  padding-top: 50%; */
+  /* background: url("./assets/img/la.PNG") top center / cover no-repeat; */
+}
+#sider .background-img {
+  width: 100%;
+  top: 0;
+  right: 0;
 }
 #sider .text-content {
   position: absolute;
@@ -128,6 +134,8 @@ html {
   width: 100%;
   color: #fff;
   text-align: center;
+  /* tạo bóng */
+  text-shadow: 0 0 1px #000; 
 }
 #sider .silde-heading {
   font-weight: 500;
@@ -146,7 +154,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px; /*hỗ trợ ipad*/
-  padding-right: 16px;/*hỗ trợ ipad*/
+  padding-right: 16px; /*hỗ trợ ipad*/
 }
 #content .section-heading {
   text-align: center;
@@ -431,13 +439,13 @@ html {
 #footer .sociol {
   font-size: 24px;
 }
-#footer .sociol a{
+#footer .sociol a {
   text-decoration: none;
   color: rgb(0, 0, 0.6);
   opacity: 0.6;
   padding: 5px 0;
 }
-#footer .sociol a:hover{
+#footer .sociol a:hover {
   color: rgb(0, 0, 0.6);
   opacity: 0.3;
 }
@@ -451,5 +459,5 @@ html {
 
 #footer .link {
   padding-left: 5px;
-  color:#000;
+  color: #000;
 }
