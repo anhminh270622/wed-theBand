@@ -1,0 +1,102 @@
+/* pc */
+@media (min-width: 1024px) {
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+/* tablet and mobile*/
+@media (max-width: 1023px) {
+  .place-list .bye_ticket {
+    padding: 14px 16px;
+  }
+  .contact-form .contact-send {
+    padding: 15px 18px;
+  }
+  .form-control {
+    padding: 13px;
+  }
+  #footer .sociol a {
+    font-size: 38px;
+    margin: 0 5px;
+  }
+}
+/* mobile */
+@media (max-width: 740px) {
+  .s-full {
+    width: 100% !important;
+    text-align: center;
+  }
+  .s-tb {
+    margin-top: 8px;
+  }
+  #nav {
+    display: block;
+  }
+  #nav li {
+    display: block;
+  }
+  /* css vào phần tử đầu tiên của thẻ li*/
+  #nav > li:first-child {
+    display: inline-block;
+  }
+  #nav li a {
+    display: block;
+  }
+  #nav .subnav {
+    position: inherit;
+  }
+  #nav .subnav li {
+    background-color: #333;
+    color: #ccc;
+    padding: 15px 44px;
+  }
+  #nav .subnav li:hover {
+    color: #000;
+  }
+  #header {
+    overflow: hidden;
+  }
+  #header .search {
+    display: none;
+  }
+  #header .mobile-menu {
+    display: block;
+    /* float: right;
+    padding: 13.8px 24px;
+    top: 0;
+    right: 0;
+    position: absolute; */
+  }
+
+  #header .mobile-menu:hover {
+    background: #ccc;
+  }
+  /* #header .search{
+    display: none;
+  } */
+  .menu-icon:hover {
+    color: #000;
+  }
+  #content .member-item {
+    width: 100%;
+  }
+  .place-list .place-item {
+    width: 100%;
+  }
+  .col-half {
+    width: 100%;
+    /* padding-bottom: 32px; */
+  }
+  #content .member-item .img {
+    height: auto;
+    width: 60%;
+  }
+  .contact-content .contact-info {
+    margin-bottom: 16px;
+  }
+
+  .map-section {
+    padding-top: 41px;
+  }
+}
