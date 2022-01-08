@@ -124,8 +124,8 @@ html {
 }
 #sider .background-img {
   width: 100%;
-  top: 0;
-  right: 0;
+  /* top: 0;
+  right: 0; */
 }
 #sider .text-content {
   position: absolute;
@@ -427,8 +427,8 @@ html {
   color: #000;
 }
 .conten-img {
-  /* height: 561px;
-  width: 100%; */
+  /* height: 561px; */
+  width: 100%;
   height: auto;
   max-width: 100%;
 }

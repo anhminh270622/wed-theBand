@@ -78,6 +78,9 @@
   .menu-icon:hover {
     color: #000;
   }
+  .text-content{
+    display: none;
+  }
   #content .member-item {
     width: 100%;
   }
